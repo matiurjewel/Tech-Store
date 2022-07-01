@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tech Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
@@ -16,6 +23,7 @@
           <li><a href="contact.html">contact us</a></li>
         </ul>
       </nav>
+      <input type="search" placeholder="search..." />
     </header>
 
     <aside>
@@ -49,20 +57,20 @@
 
     <main>
       <h2>Product detail::</h2>
-      <div>
+      <div class="product product-detail">
         <a href="product-detail.html"
           ><img src="images/controller.jpg" alt="game"
         /></a>
         <h4>
-          <a href="product-detail.html">Game Controller</a>
+          <a href="product-detail.html">Game Controller &#127918;</a>
         </h4>
         <p>$ 79.95</p>
         <p>
           Awesome game controller <br />
           for xbox!
         </p>
-        <a href="product-detail.html">More Info</a>
-        <a href="">Add To Cart</a>
+        <a href="product-detail.html" class="button">More Info</a>
+        <a href="#" class="button" id="position">Add To Cart</a>
       </div>
 
       <table>

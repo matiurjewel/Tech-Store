@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tech Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
@@ -16,6 +23,7 @@
           <li><a href="contact.html">contact us</a></li>
         </ul>
       </nav>
+      <input type="search" placeholder="search..." />
     </header>
 
     <aside>
@@ -47,35 +55,30 @@
     <main>
       <h2>Contact Us:</h2>
       <form action="" method="">
-        <div>
+        <div class="inline">
           <label for="name">Name:</label>
-          <div>
-            <input
-              name="name"
-              id="name"
-              type="text"
-              placeholder="Enter your name"
-            />
-          </div>
+          <input
+            name="name"
+            id="name"
+            type="text"
+            placeholder="Enter your name"
+          />
         </div>
 
-        <div>
+        <div class="inline">
           <label for="email">Email:</label>
-          <div>
-            <input
-              name="email"
-              id="email"
-              type="email"
-              placeholder="Enter your email"
-            />
-          </div>
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email"
+          />
         </div>
 
-        <div>
+        <div class="inline">
           <label for="message">Message:</label>
-          <div>
-            <textarea id="message" name="message" cols="30" rows="5"></textarea>
-          </div>
+
+          <textarea id="message" name="message" cols="30" rows="5"></textarea>
         </div>
         <!-- <div>
           <label for="subject">Subject</label>
@@ -91,7 +94,7 @@
           </select>
         </div> -->
 
-        <div>
+        <div class="inline">
           <label for="subject">Subject:</label>
           <input
             type="text"
@@ -139,7 +142,21 @@
             name="response"
           />
         </div>
+        <div>
+          <input type="submit" />
+          <input type="reset" />
+          <!-- <button type="submit">submit</button> -->
+        </div>
       </form>
+
+      <iframe
+        width="600"
+        height="450"
+        frameborder="0"
+        style="border: 0"
+        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ-7m057a1j4AR2VBPVzJDemk&key=AIzaSyC6wL6CxXcuo17n4erBWa6Uaz4DOP2e-Ag"
+        allowfullscreen
+      ></iframe>
     </main>
     <footer>
       <nav>
